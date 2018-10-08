@@ -13,6 +13,8 @@
 		08BC0B5C2167E7F6003E44BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08BC0B5B2167E7F6003E44BE /* Assets.xcassets */; };
 		08BC0B5F2167E7F6003E44BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BC0B5D2167E7F6003E44BE /* LaunchScreen.storyboard */; };
 		08BC0B622167E7F6003E44BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC0B612167E7F6003E44BE /* main.m */; };
+		08BC0B722167FDCD003E44BE /* marimba.aif in Resources */ = {isa = PBXBuildFile; fileRef = 08BC0B712167FDC7003E44BE /* marimba.aif */; };
+		08BC0B732167FDD3003E44BE /* sncf.aif in Resources */ = {isa = PBXBuildFile; fileRef = 08BC0B702167FDC7003E44BE /* sncf.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		08BC0B5E2167E7F6003E44BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08BC0B602167E7F6003E44BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08BC0B612167E7F6003E44BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08BC0B702167FDC7003E44BE /* sncf.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = sncf.aif; sourceTree = "<group>"; };
+		08BC0B712167FDC7003E44BE /* marimba.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = marimba.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		08BC0B512167E7F4003E44BE /* SoundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				08BC0B7421680269003E44BE /* sounds */,
 				08BC0B522167E7F4003E44BE /* AppDelegate.h */,
 				08BC0B532167E7F4003E44BE /* AppDelegate.m */,
 				08BC0B552167E7F4003E44BE /* ViewController.h */,
@@ -69,6 +74,15 @@
 				08BC0B612167E7F6003E44BE /* main.m */,
 			);
 			path = SoundDemo;
+			sourceTree = "<group>";
+		};
+		08BC0B7421680269003E44BE /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				08BC0B712167FDC7003E44BE /* marimba.aif */,
+				08BC0B702167FDC7003E44BE /* sncf.aif */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +144,9 @@
 			files = (
 				08BC0B5F2167E7F6003E44BE /* LaunchScreen.storyboard in Resources */,
 				08BC0B5C2167E7F6003E44BE /* Assets.xcassets in Resources */,
+				08BC0B722167FDCD003E44BE /* marimba.aif in Resources */,
 				08BC0B5A2167E7F4003E44BE /* Main.storyboard in Resources */,
+				08BC0B732167FDD3003E44BE /* sncf.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
