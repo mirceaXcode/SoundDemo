@@ -15,6 +15,7 @@
 		08BC0B622167E7F6003E44BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC0B612167E7F6003E44BE /* main.m */; };
 		08BC0B722167FDCD003E44BE /* marimba.aif in Resources */ = {isa = PBXBuildFile; fileRef = 08BC0B712167FDC7003E44BE /* marimba.aif */; };
 		08BC0B732167FDD3003E44BE /* sncf.aif in Resources */ = {isa = PBXBuildFile; fileRef = 08BC0B702167FDC7003E44BE /* sncf.aif */; };
+		08BC0B76216C0432003E44BE /* Parazitii.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 08BC0B75216C0432003E44BE /* Parazitii.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		08BC0B612167E7F6003E44BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08BC0B702167FDC7003E44BE /* sncf.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = sncf.aif; sourceTree = "<group>"; };
 		08BC0B712167FDC7003E44BE /* marimba.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = marimba.aif; sourceTree = "<group>"; };
+		08BC0B75216C0432003E44BE /* Parazitii.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Parazitii.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				08BC0B712167FDC7003E44BE /* marimba.aif */,
+				08BC0B75216C0432003E44BE /* Parazitii.mp3 */,
 				08BC0B702167FDC7003E44BE /* sncf.aif */,
 			);
 			path = sounds;
@@ -142,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BC0B76216C0432003E44BE /* Parazitii.mp3 in Resources */,
 				08BC0B5F2167E7F6003E44BE /* LaunchScreen.storyboard in Resources */,
 				08BC0B5C2167E7F6003E44BE /* Assets.xcassets in Resources */,
 				08BC0B722167FDCD003E44BE /* marimba.aif in Resources */,
