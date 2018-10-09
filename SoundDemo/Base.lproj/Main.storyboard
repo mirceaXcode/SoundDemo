@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfE-Tn-OBT">
-                                <rect key="frame" x="142" y="113" width="91" height="30"/>
+                                <rect key="frame" x="32" y="143" width="91" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Play Sound A"/>
                                 <connections>
@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKj-PH-Ecs">
-                                <rect key="frame" x="142" y="242" width="91" height="30"/>
+                                <rect key="frame" x="223" y="143" width="91" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Play Sound B"/>
                                 <connections>
@@ -35,19 +35,39 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jca-tk-Amh">
-                                <rect key="frame" x="150" y="356" width="75" height="30"/>
+                                <rect key="frame" x="40" y="495" width="75" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play Media"/>
+                                <state key="normal" title="Play Media">
+                                    <color key="titleColor" red="0.00011684401059180447" green="0.785600700873057" blue="0.00018126508715769689" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playMedia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4qB-Cz-2mF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbq-ie-ZHn">
-                                <rect key="frame" x="121" y="463" width="132" height="30"/>
+                                <rect key="frame" x="211" y="495" width="132" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Stop Playing Media"/>
+                                <state key="normal" title="Stop Playing Media">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="stopMedia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tr6-yE-YyL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nt5-qm-xxt">
+                                <rect key="frame" x="32" y="302" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play Sound C"/>
+                                <connections>
+                                    <action selector="playSoundC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qc5-9e-VVg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fD-02-sTr">
+                                <rect key="frame" x="222" y="302" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play Sound D"/>
+                                <connections>
+                                    <action selector="playSoundD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="woX-30-Nj3"/>
                                 </connections>
                             </button>
                         </subviews>
